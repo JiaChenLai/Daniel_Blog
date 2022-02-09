@@ -1,2 +1,25 @@
 theme: jekyll-theme-slate
 
+paginate: 20
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: archives
+          url: archives
+          weight: 5
+        - name: search
+          url: search/
+          weight: 10
+        - name: tags
+          url: tags/
+          weight: 10
+        - name: categories
+          url: categories/
+          weight: 10
+        - name: series
+          url: series/
+          weight: 10
